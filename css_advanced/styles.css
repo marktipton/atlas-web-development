@@ -5,6 +5,7 @@ header {
   background-color: transparent;
   width: 1103px;
   height: 29px;
+  z-index: 1;
 }
 
 header .logo {
@@ -34,4 +35,18 @@ header .menu {
 .people {
   display: flex;
   align-items: space-around;
+}
+
+.banner {
+  position: relative;
+  background: url('images/background.png') center/cover;
+  z-index: 0;
+  width: 1440px;
+  height: 1093px;
+}
+
+.banner h1 {
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
 }
