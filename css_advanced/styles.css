@@ -1,11 +1,12 @@
 header {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: absolute;
   background-color: transparent;
   width: 1103px;
   height: 29px;
   z-index: 1;
+  top: 101px;
 }
 
 header .logo {
@@ -16,6 +17,15 @@ header .menu {
   display: flex;
   gap: 52px;
   align-items: space-between;
+}
+
+header .menu a {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .text-wrapper {
@@ -35,11 +45,13 @@ header .menu {
 .people {
   display: flex;
   align-items: space-around;
+  gap: 139px;
 }
 
 .banner {
+  display: flex;
   position: relative;
-  background: url('images/background.png') center/cover;
+  background: url('images/background.png');
   z-index: 0;
   width: 1440px;
   height: 1093px;
@@ -47,6 +59,11 @@ header .menu {
 
 .banner h1 {
   font-size: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.center-horizontally {
   display: flex;
   justify-content: center;
 }
