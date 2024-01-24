@@ -95,3 +95,7 @@ header .menu a {
 .circle {
   border-radius: 50%;
 }
+
+.person {
+  width: 150px;
+}
