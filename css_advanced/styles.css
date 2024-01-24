@@ -58,6 +58,7 @@ header .menu a {
 .banner {
   display: flex;
   position: relative;
+  justify-content: space-around;
   background: url('images/background.png');
   z-index: 0;
   width: 1440px;
@@ -77,6 +78,15 @@ header .menu a {
   justify-content: center;
 }
 
+.banner .button {
+  display: flex;
+  justify-content: center;
+}
+
+.banner h2 {
+  display: flex;
+  justify-content: center;
+}
 .center-horizontally {
   display: flex;
   justify-content: center;
