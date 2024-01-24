@@ -71,6 +71,12 @@ header .menu a {
   justify-content: center;
 }
 
+.banner .text-row {
+  display: flex;
+  gap: 59px;
+  justify-content: center;
+}
+
 .center-horizontally {
   display: flex;
   justify-content: center;
