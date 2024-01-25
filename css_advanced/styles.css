@@ -65,7 +65,7 @@ button {
   display: flex;
   position: relative;
   justify-content: space-around;
-  background: url('images/background.png'), cover;
+  background: url('images/background.png');
   background-repeat: no-repeat;
   z-index: 0;
   width: 1440px;
@@ -187,4 +187,14 @@ button {
 .small {
   width: 30px;
   height: 30px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
 }
