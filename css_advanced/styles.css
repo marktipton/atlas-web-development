@@ -163,13 +163,18 @@ button {
 }
 
 .videos {
-  width: 942px;
-  height: 624 px;
-}
-.video-box {
   width: 1228px;
   height: 450px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.video-box {
+  width: 942px;
+  height: 624 px;
+  display: flex;
+  text-align: center;
   align-items: column;
   /* justify-content: center; */
 }
@@ -182,6 +187,7 @@ button {
 
 .video-block {
   display: flex;
+  gap: 27px;
 }
 
 .small {
@@ -192,9 +198,16 @@ button {
 .author {
   display: flex;
   align-items: center;
+  gap: 13px;
 }
 
 .rating {
   display: flex;
   align-items: center;
+  gap: 79px;
+}
+
+.video-box .text-box {
+  height: 40px;
+  width: 294px;
 }
