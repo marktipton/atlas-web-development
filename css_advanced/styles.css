@@ -183,3 +183,8 @@ button {
 .video-block {
   display: flex;
 }
+
+.small {
+  width: 30px;
+  height: 30px;
+}
