@@ -143,3 +143,11 @@ button {
   color: #C271FF;
   font-weight: 700;
 }
+
+.italic {
+  font-style: italic;
+}
+
+.light {
+  font-weight: 400;
+}
