@@ -35,6 +35,12 @@ header .menu a {
   line-height: normal;
 }
 
+button {
+  border-radius: 22px;
+  background: #C271FF;
+  width: 162px;
+  height: 44px;
+}
 .text-wrapper {
   top: 0;
   left: 0;
@@ -91,10 +97,15 @@ header .menu a {
 
 #quote {
   background: url('images/background2.png');
+  height: 392px;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 
+#quote .circle {
+  border-radius: 50%;
+}
 .center-horizontally {
   display: flex;
   justify-content: center;
