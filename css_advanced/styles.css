@@ -119,3 +119,8 @@ header .menu a {
   font-weight: 900;
   line-height: 27px;
 }
+
+.highlight {
+  color: #C271FF;
+  font-weight: 700;
+}
