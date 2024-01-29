@@ -300,6 +300,11 @@ footer .row-block p {
   line-height: normal;
 }
 
+footer .row-block {
+  display: flex;
+  /* align-items: center; */
+  align-items: center;
+}
 .copyright {
   color: #FFF;
 
@@ -315,6 +320,7 @@ footer .row-block p {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  align-items: center;
 }
 
 .footer-logo img {
