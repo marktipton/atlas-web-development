@@ -285,9 +285,10 @@ height: 707px;
 footer {
   background: url('images/footerBackground.png');
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  height: 249px;
 }
 
 footer .row-block p {
@@ -304,6 +305,9 @@ footer .row-block {
   display: flex;
   /* align-items: center; */
   align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 75px;
 }
 .copyright {
   color: #FFF;
@@ -314,6 +318,11 @@ footer .row-block {
   font-weight: 400;
   line-height: normal;
   opacity: 0.3517;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 75px;
+
 }
 
 .footer-logo {
