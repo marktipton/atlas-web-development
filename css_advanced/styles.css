@@ -234,6 +234,8 @@ height: 707px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 106px;
   /* align-items: center;
   justify-content: center;
    */
@@ -245,7 +247,6 @@ height: 707px;
   display: flex;
   text-align: center;
   align-items: column;
-  /* justify-content: center; */
 }
 
 .video-item {
@@ -285,4 +286,36 @@ footer {
   background: url('images/footerBackground.png');
   display: flex;
   justify-content: space-between;
+}
+
+footer .row-block p {
+  color: #FFF;
+
+  font-family: Coiny;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.copyright {
+  color: #FFF;
+
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 36.388px;
+  height: 29.461px;
 }
