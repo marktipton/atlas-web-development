@@ -262,7 +262,9 @@ height: 707px;
 
 .playbutton {
   position: absolute;
-  /* left: 300px; */
+  /* top: 30px; */
+  margin-top: 40px;
+  z-index: 1;
 }
 
 .pb1 {
