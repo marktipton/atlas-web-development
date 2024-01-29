@@ -260,6 +260,27 @@ height: 707px;
   gap: 27px;
 }
 
+.playbutton {
+  position: absolute;
+  /* left: 300px; */
+}
+
+.pb1 {
+  left: 350px;
+}
+
+.pb2 {
+  left: 630px;
+}
+
+.pb3 {
+  left: 910px;
+}
+
+.pb4 {
+  left: 1190px;
+}
+
 .small {
   width: 30px;
   height: 30px;
@@ -307,7 +328,7 @@ footer .row-block {
   align-items: center;
   justify-content: space-between;
   width: 1000px;
-  margin-top: 75px;
+  margin-top: 70px;
 }
 .copyright {
   color: #FFF;
@@ -321,7 +342,7 @@ footer .row-block {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 75px;
+  margin-top: 60px;
 
 }
 
