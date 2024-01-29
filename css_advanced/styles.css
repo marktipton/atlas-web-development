@@ -218,3 +218,9 @@ button {
   height: 40px;
   width: 294px;
 }
+
+footer {
+  background: url('images/footerBackground.png');
+  display: flex;
+  justify-content: space-between;
+}
