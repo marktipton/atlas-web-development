@@ -111,6 +111,13 @@ button {
 #quote p {
   margin-left: 40px;
 }
+
+.membership {
+  background: url('images/membershipBackground.png');
+  display: flex;
+  justify-content: center;
+}
+
 .center-horizontally {
   display: flex;
   justify-content: center;
