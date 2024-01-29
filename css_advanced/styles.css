@@ -114,8 +114,15 @@ button {
 
 .membership {
   background: url('images/membershipBackground.png');
+  height: 502px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.membership .smile-row {
+  display: flex;
   justify-content: center;
 }
 
