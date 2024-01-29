@@ -115,6 +115,7 @@ button {
 .membership {
   background: url('images/membershipBackground.png');
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
