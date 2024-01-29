@@ -1,5 +1,5 @@
 * {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif, "Coiny";
 }
 
 header {
@@ -164,8 +164,12 @@ button {
 }
 
 .faq {
-width: 920px;
-height: 707px;
+  width: 920px;
+  height: 707px;
+  display: flex;
+  justify-content: center;
+  margin-left: 271px;
+  margin-right: 271px;
 }
 .faq h1 {
   color: #071629;
@@ -177,6 +181,21 @@ height: 707px;
   font-weight: 400;
   line-height: normal;
 }
+
+.faq-item {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.faq-row {
+  display: flex;
+  justify-content: space-around;
+}
+
 .center-horizontally {
   display: flex;
   justify-content: center;
@@ -300,6 +319,17 @@ height: 707px;
   gap: 79px;
 }
 
+.rating p {
+
+  color: #C271FF;
+
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
 .video-box h1 {
   height: 40px;
   width: 294px;
@@ -317,7 +347,7 @@ footer {
 footer .row-block p {
   color: #FFF;
 
-  font-family: Coiny;
+  font-family: "Coiny";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
