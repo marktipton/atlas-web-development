@@ -170,6 +170,7 @@ button {
   justify-content: center;
   margin-left: 271px;
   margin-right: 271px;
+  flex-direction: column;
 }
 .faq h1 {
   color: #071629;
@@ -194,6 +195,7 @@ button {
 .faq-row {
   display: flex;
   justify-content: space-around;
+  gap: 220px;
 }
 
 .center-horizontally {
