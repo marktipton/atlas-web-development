@@ -286,6 +286,8 @@ footer {
   background: url('images/footerBackground.png');
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer .row-block p {
