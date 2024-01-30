@@ -403,7 +403,7 @@ footer .row-block {
 .copyright {
   color: #FFF;
 
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
