@@ -72,10 +72,14 @@ button {
   background: url('images/background.png');
   background-repeat: no-repeat;
   z-index: 0;
-  width: 1440px;
+  width: 1448.15px;
+height: 1055px;
+  /* width: 100%; */
+  /* scale: 109%; */
   /* height: 150%; */
-  height: 1093px;
+  /* height: 1093px; */
   flex-direction: column;
+  margin-right: 30px;
 }
 
 #banner h1 {
