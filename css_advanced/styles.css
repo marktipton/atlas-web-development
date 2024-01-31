@@ -313,6 +313,7 @@ height: 44px; */
   display: flex;
   text-align: center;
   align-items: column;
+  margin-left: -190px;
 }
 
 .video-item {
@@ -323,6 +324,7 @@ height: 44px; */
 
 .video-block {
   display: flex;
+  align-items: center;
   gap: 27px;
 }
 
