@@ -31,7 +31,10 @@ header .menu a {
   letter-spacing: 0;
   line-height: normal;
 }
-
+body {
+  width: 1440px;
+  height: 3718px;
+}
 button {
   border-radius: 22px;
   background: #C271FF;
