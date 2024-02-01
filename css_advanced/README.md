@@ -1,4 +1,5 @@
 # CSS (Cascading Style Sheets)
+![csshtml](https://github.com/marktipton/atlas-web-development/assets/128427866/f17f3d7e-24e1-429c-adb5-259822628e3a)
 
 - CSS is a style sheet language used for specifying the presentation of markup language such as HTML and XML. CSS was first proposed in 1994 and first released by the World Wide Web Consortium in 1996. CSS enables the separation of content (HTML) and presentation (CSS). This separation allows for more flexibility and control over webpage presentation.
 
